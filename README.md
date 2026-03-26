@@ -53,6 +53,9 @@ The project follows the MCP standard to create a seamless link between the AI ho
 
 <img width="1576" height="820" alt="image" src="https://github.com/user-attachments/assets/2fdb0cc3-2bb1-4a6f-98dd-62d68361fe74" />
 
+<img width="1136" height="911" alt="image" src="https://github.com/user-attachments/assets/3ad4f8ef-4725-4c40-ab44-40ae401510f0" />
+
+
 <img width="1241" height="919" alt="image" src="https://github.com/user-attachments/assets/f7f48e2a-4b1e-4764-b711-bdb699701b23" />
 
 
