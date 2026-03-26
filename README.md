@@ -1,5 +1,5 @@
 # Copilot-MCP-Orchestrator
-Enterprise AI Agent with Model Context Protocol (MCP) &amp; DocuSign
+**Enterprise AI Agent with Model Context Protocol (MCP) &amp; DocuSign** 
 
 Developed a next-generation AI Agent using Microsoft Copilot Studio and the Model Context Protocol (MCP) to automate document lifecycle management. By leveraging MCP, this project bypasses the complexity of traditional custom connectors and Power Automate flows, utilizing a standardized "client-server" architecture to provide the LLM with direct, stateful access to DocuSign’s enterprise tools.
 
@@ -18,9 +18,25 @@ Developed a next-generation AI Agent using Microsoft Copilot Studio and the Mode
 
 The project follows the MCP standard to create a seamless link between the AI host and external data:
 
-MCP Host: Configured Copilot Studio as the primary host to coordinate AI reasoning and tool execution.
+**MCP Host:** Configured Copilot Studio as the primary host to coordinate AI reasoning and tool execution.
 
-MCP Server Connection: Established a secure connection to a DocuSign Developer Sandbox via the MCP server, enabling a set of standardized "Tools" (GetTemplates, SendEnvelope, GetAccountDetails).
+**MCP Server Connection:** Established a secure connection to a DocuSign Developer Sandbox via the MCP server, enabling a set of standardized "Tools" (GetTemplates, SendEnvelope, GetAccountDetails).
 
-Standardization vs. Traditional Flows: Unlike legacy REST API connectors that require manual T-SQL or DAX-like logic for data transformation, MCP allows the agent to understand the tool's schema natively, reducing development time and improving reliability.
+**Standardization vs. Traditional Flows:** Unlike legacy REST API connectors that require manual T-SQL or DAX-like logic for data transformation, MCP allows the agent to understand the tool's schema natively, reducing development time and improving reliability.
+
+🌟 **Key Features**
+
+**Zero-Code Document Routing:** The agent can identify, populate, and send DocuSign templates (e.g., Lease Agreements or RFPs) based on simple natural language prompts.
+
+**Dynamic Context Retrieval:** Ability to query active templates, account statuses, and envelope history in real-time within a chat interface.
+
+**Cross-Platform Deployment:** Published the agent to Microsoft Teams, allowing for enterprise-wide document management directly within the collaboration workspace.
+
+**📈 Business Impact**
+
+**Reduced Integration Complexity:** Eliminated the need for complex Power Automate "Apply to Each" loops and JSON parsing.
+
+**Enhanced User Experience:** Shifted document workflows from manual portal navigation to a conversational AI interface.
+
+**Future-Ready Scalability:** The MCP framework allows for the easy addition of other servers (e.g., ServiceNow, GitHub, Google Drive) using the same standardized protocol.
 
