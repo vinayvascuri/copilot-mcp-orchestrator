@@ -1,5 +1,7 @@
 # Copilot-MCP-Orchestrator
-**Enterprise AI Agent with Model Context Protocol (MCP) &amp; DocuSign** 
+
+
+# ![](https://img.shields.io/badge/Enterprise_AI_Agent_with_Model_Context_Protocol_(MCP)_%26_DocuSign-blue?style=for-the-badge)
 
 Developed a next-generation AI Agent using Microsoft Copilot Studio and the Model Context Protocol (MCP) to automate document lifecycle management. By leveraging MCP, this project bypasses the complexity of traditional custom connectors and Power Automate flows, utilizing a standardized "client-server" architecture to provide the LLM with direct, stateful access to DocuSign’s enterprise tools.
 
