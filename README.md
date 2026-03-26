@@ -42,3 +42,18 @@ The project follows the MCP standard to create a seamless link between the AI ho
 
 **Future-Ready Scalability:** The MCP framework allows for the easy addition of other servers (e.g., ServiceNow, GitHub, Google Drive) using the same standardized protocol.
 
+
+### 🎥 Implementation Roadmap
+1. **Infrastructure:** Initialized Copilot Studio Preview & MCP Host.
+2. **Integration:** Connected DocuSign MCP Server & Sandbox.
+3. **Configuration:** Built-out signature templates & automated routing.
+4. **Validation:** Compared MCP efficiency against legacy Flow connectors.
+5. **Deployment:** Published to Microsoft Teams for enterprise use.
+
+
+<img width="1576" height="820" alt="image" src="https://github.com/user-attachments/assets/2fdb0cc3-2bb1-4a6f-98dd-62d68361fe74" />
+
+<img width="1241" height="919" alt="image" src="https://github.com/user-attachments/assets/f7f48e2a-4b1e-4764-b711-bdb699701b23" />
+
+
+
